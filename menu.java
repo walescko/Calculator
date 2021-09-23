@@ -24,6 +24,7 @@ public class menu {
         System.out.println("Subtração .................. 2");
         System.out.println("Multiplicação .............. 3");
         System.out.println("Divisão .................... 4");
+        System.out.println("Resto da Divisão ........... 5");
         System.out.print("Opção: ");
         opcao = scan.nextInt();
 
@@ -49,6 +50,10 @@ public class menu {
             case 4:
                 dados.dadosenter();
                 dados.divisao();
+                break;
+            case 5:
+                dados.dadosenter();
+                dados.restodivisao();
                 break;
             default:
                 System.out.println("Opcao inválida");

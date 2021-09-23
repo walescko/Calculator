@@ -49,6 +49,14 @@ public class dados {
          }
      }
 
+     protected void restodivisao(){
+         if (number2 == 0) {
+             System.out.println("ERROR: Divisão por zero!");
+         } else {
+             resultado = number1 % number2;
+             dadosexit();
+         }
 
 
-}
+
+}}
